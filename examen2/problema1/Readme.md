@@ -1,4 +1,4 @@
-Se presenta la resolucion de los siguientes problemas:
+# Se presenta la resolucion de los siguientes problemas:
 
 i. Definicion de un tipo de datos recursivo que represente numerales de Church.
 Solucion en el archivo church.go
