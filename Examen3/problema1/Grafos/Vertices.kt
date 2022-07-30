@@ -7,5 +7,5 @@ public open class Vertice(val valor: Int) {
     var color: Color = Color.BLANCO
     var pred: Vertice? = null
   } 
-  
-  enum class Color { NEGRO, GRIS, BLANCO }
+
+enum class Color { NEGRO, GRIS, BLANCO }

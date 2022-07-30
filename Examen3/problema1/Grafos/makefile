@@ -6,6 +6,7 @@ all:	\
 	Vertices.class \
 	Busqueda.class \
 	BFS.class \
+	DFS.class \
 	TestBusquedaGrafoKt.class
 
 GrafoDirigido.class: GrafoDirigido.kt
@@ -19,6 +20,9 @@ Busqueda.class: Busqueda.kt
 
 BFS.class: BFS.kt
 	$(KC) $(KFLAG) . BFS.kt
+
+DFS.class: DFS.kt
+	$(KC) $(KFLAG) . DFS.kt
 
 TestBusquedaGrafoKt.class: TestBusquedaGrafo.kt 
 	$(KC) $(KFLAG) . TestBusquedaGrafo.kt

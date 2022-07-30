@@ -2,7 +2,6 @@
  * Clase que representa un grafo como lista de adyacencias y cada
  * nodo se representa por un número entero entre 0 y numero de nodos
  */
-
 class GrafoDirigido {
     
     /* Representacion de un grafo como lista de adyacencias */
@@ -45,8 +44,6 @@ class GrafoDirigido {
         return numeroDeVertices
     }
 
-   
-
     /**
      * Retorna los adyacentes de v, en este caso los lados que tienen como vértice inicial a v. 
      * PARAMETROS:
@@ -75,6 +72,9 @@ class GrafoDirigido {
     }
 }
 
+/**
+ * Clase usada para representar los lados de un digrafo
+ */
 public open class Arco(val inicio: Int, val fin: Int) {
 
     /* Retorna el vértice inicial un arco arco */
