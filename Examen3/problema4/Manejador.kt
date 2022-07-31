@@ -3,6 +3,9 @@ class Manejador {
     // variable global usada para almacenar las clases creadas
     val clases: HashMap<String, Clase> = HashMap<String, Clase>()
 
+    /**
+     * Metodo usado para agregar una nueva clase
+     */
     fun agregarNuevaClase(lista: List<String>) : Boolean {
 
         if (clases.containsKey(lista[1])){
@@ -67,6 +70,9 @@ class Manejador {
         return true
     }
 
+    /**
+     * Metodo usado para mostrar los metodos de una clase
+     */
     fun describir(clase: String) : Boolean {
         if (clases.get(clase) == null) {
             println("Error, la clase ${clase} no existe")
