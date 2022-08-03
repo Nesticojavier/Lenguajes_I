@@ -1,13 +1,19 @@
-# Se presenta implementacion en kotlin de una clase abstracta
-# de algoritmos de busqueda para grafos
-
-En TestGrafoBusqueda.kt se encuentra el cliente que prueba esta implementación
+# Se presenta implementacion en kotlin de una clase abstracta de algoritmos de busqueda para grafos en `Kotlin`
 
 Compilar:
-> make
+```
+make
+```
 
 Ejecutar:
-> ./runTestGrafoBusqueda.sh
+```
+./runTestGrafoBusqueda.sh
+```
 
-Este programa fue compilado y ejecutado en una maquina con:
-Kotlin version 1.5.0-release-749
+## Observaciones
+
+- Este programa fue compilado y ejecutado en macOS con `Kotlin version 1.5.0-release-749`.
+
+- En TestGrafoBusqueda.kt se encuentra el cliente que prueba esta implementación.
+
+- Se usó un grafo dirigido para representar la estructura.
